@@ -1,0 +1,79 @@
+body{
+	position:relative;
+}
+h2{
+	text-align: center;
+}
+section{
+	float: left;
+	background-color: gray;
+	width:32.5%;
+	height: 130px;
+	border: 1px solid black;
+	margin:0.36%;
+	padding: 20px 5px 5px;
+	box-sizing: border-box;
+	position: relative;
+}
+p{
+	padding: 2px 16px 2px;
+	border: 1px solid black;
+	position: relative;
+	bottom: 88px;
+	left: 84.5%;
+	text-align: center;
+	font-weight: bold;
+	box-sizing: border-box;
+
+}
+.p1{
+	background-color: lightpink;
+}
+.p2{
+	background-color: red ;
+    color: white;
+}
+.p3{
+	background-color: yellow;
+}
+@media (min-width: 768px) and (max-width: 991px){
+	section{
+	width:49%;
+	height: 120px;
+	border: 1px solid black;
+	margin:0.36%;
+	padding: 20px 5px 5px;
+	box-sizing: border-box;
+	position: relative;
+}
+p{
+	padding: 2px 16px 2px;
+	border: 1px solid black;
+	position: relative;
+	bottom: 88px;
+	left: 75%;
+	text-align: center;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+}
+@media (min-width: 0px) and (max-width: 767px){
+	section{
+	width:97%;
+	height: 120px;
+	border: 1px solid black;
+	margin:0.36%;
+	padding: 20px 5px 5px;
+	box-sizing: border-box;
+	position: relative;
+}
+p{
+	padding: 2px 16px 2px;
+	border: 1px solid black;
+	position: relative ;
+	bottom: 88px;
+	left: 75%;
+	text-align: center;
+	font-weight: bold;
+	box-sizing: border-box;
+}
