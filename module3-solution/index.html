@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 	 <meta charset="utf-8">
@@ -17,27 +17,51 @@
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <!-- <div class="navbar-brand">
+       <!--<div class="navbar-brand">
       <a href="index.html"><h1>Food, LLC</h1></a> -->
-      <a class="navbar-brand" href="#"><h1>Food, LLC</h1></a>
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <a class="navbar-brand" href="#"><h1 id="top">Food, LLC</h1></a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+       </div>
+      <div class="collapse navbar-collapse" id="collapsable-nav">
+      <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+        <li><a href="#Chicken">Chicken</a></li>
+        <li><a href="#Beef">Beef</a></li>
+        <li><a href="#Sushi">Sushi</a></li>
+      </ul>
       
+      </div>
     </div>
-</div>
-</div>
 </nav>
 	</header>
+<p class="text-center" id="x">Our Menu</p>
+<div class="col-md-12 col-sm-12 col-xs-12">
+  <div class="container2">
+    <p  class="text-center" id="Chicken"> Chicken</p>
+    <section class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+    </section>
+  </div>
+  <div class="container2">
+    <p class="text-center" id="Beef"> Beef</p>
+    <section class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </section>
+  </div>
+  <div class="container2">
+    <p class="text-center"  id="Sushi"> Sushi</p>
+    <section class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+</section>
+</div>
+  </div>
+  <a href="#top" class="link">Back To Top</a>
 
 
 
 
-
-<script src="js/jquery-1.11.3.min.js"></script>
+<!-- <script src="js/jquery-1.11.3.min.js"></script> -->
+  <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
