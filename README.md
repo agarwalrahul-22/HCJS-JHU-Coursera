@@ -1,2 +1,2 @@
-# coursera-test
-Coursera test repository
+# HCJ JHU Coursera
+HCJ JHU Coursera repository
